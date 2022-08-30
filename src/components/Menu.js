@@ -6,7 +6,7 @@ import './Menu.css';
 const Menu = () => {
     return (
         <div>
-            <Navbar className="navbar-background" /*bg="light"*/ variant="dark" expand="lg">
+            <Navbar className="navbar-background" variant="dark" expand="lg">
                 <Container fluid className="container-fluid-menu">
                     <Navbar.Brand href="#">
                         <img className="logo" src="/img/Logo-RandM.png" alt="Logo" />
