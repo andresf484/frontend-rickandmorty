@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 //Import conmponents
 import Characters from '../components/Characters';
 
-//function PublicRouter() {
 export const PublicRouter = () => {
     return (
         <BrowserRouter>
@@ -15,5 +14,3 @@ export const PublicRouter = () => {
         </BrowserRouter>
     )
 }
-
-//export default PublicRouter

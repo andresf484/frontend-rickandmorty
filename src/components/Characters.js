@@ -106,7 +106,7 @@ const Characters = () => {
                                     <th>Nombre</th>
                                     <th>Vivo</th>
                                     <th>Especie</th>
-                                    <th>Genero</th>
+                                    <th>Género</th>
                                     <th>Origen</th>
                                     <th>Locación</th>
                                     <th>Capítulos</th>
