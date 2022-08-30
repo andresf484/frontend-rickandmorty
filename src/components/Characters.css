@@ -1,0 +1,154 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}*/
+
+.table {
+    border-collapse: collapse;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-style: hidden !important;
+}
+
+.table th {
+    text-align: center;   
+}
+
+.table td {
+    text-align: center;
+}
+
+thead {
+    background-color: #506266;
+    color: #ffffff;
+}
+
+.table-container {
+    border: 1px solid #819397;
+    padding: 24px;
+}
+
+.table-statusImg {
+    text-align: center;
+}
+
+.table-statusImg>img {
+    width: 16px;
+    height: 16px;
+}
+
+.table-actions>img {
+    width: 18px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.actionsText {
+    color: #819397;
+    display: inline;
+}
+
+.container-fluid-content {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.camera-container {
+    margin-top: 24px;
+}
+
+.camera-container>img {
+    display: inline;
+    width: 36px;
+    height: 34px;
+    margin-top: 4px;
+}
+
+.camera-container>h1 {
+    display: inline;
+    margin-left: 15px;
+    color: #10454F;
+    font-weight: bold;
+}
+
+.cameraText>h1 {
+    display: inline;
+    color: #10454F;
+}
+
+.statistics-container {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.total-characters {
+    display: inline;
+    border: 1px solid #819397;
+    padding-left: 10px;
+}
+
+.status {
+    color: #10454F;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 1px solid #819397;
+}
+
+.status-divider {
+    display: inline;
+    color: #819397;
+}
+
+.statusImg {
+    display: inline;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+.statusImg>img {
+    width: 16px;
+    height: 16px;
+}
+
+.statusText {
+    display: inline;
+    vertical-align: middle;
+}
+
+.number {
+    display: inline;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.number.number-total {
+    color: #819397;
+}
+
+.search {
+    position:relative;
+}
+
+.searchImg {
+    margin-left: 15px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.search>input {
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+    width: 250px;
+    height: 40px;
+    padding-left: 40px;
+}
