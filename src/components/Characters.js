@@ -119,7 +119,7 @@ const Characters = () => {
                                 <tr key={index}>
                                     <td>{e.name}</td>
                                     <td className="table-statusImg">
-                                        {e.status === 'Alive' ? <img src="/img/Icono de vivo.png" alt="Alive" /> : <img src="/img/Icono de muerto.png" alt="Dead" />}
+                                        {e.status === 'Alive' ? <img src="/img/Icono de vivo.png" alt="Alive" /> : <img src="/img/Icono de muerto table.png" alt="Dead" />}
                                     </td>
                                     <td>{e.species}</td>
                                     <td>{e.gender}</td>
